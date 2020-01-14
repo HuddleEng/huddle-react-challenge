@@ -1,0 +1,10 @@
+@import '../node_modules/normalize.css/normalize.css';
+@import './variables';
+
+body {
+  margin: 0;
+  font-size: $fontSize;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,9 @@
+@import '../variables';
+
+.user-avatar {
+  width: 170px;
+  height: 170px;
+  border: 9px solid $accentColor;
+  border-radius: 100%;
+  box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.5);
+}

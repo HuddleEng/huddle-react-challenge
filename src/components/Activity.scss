@@ -1,0 +1,51 @@
+@import '../variables';
+
+.activity {
+  margin-top: 5em;
+  padding-left: 0;
+
+  li {
+    font-size: $headingSize;
+    line-height: 2em;
+
+    background-color: $rowColor;
+    padding: 20px;
+    width: 100%;
+    border-radius: $borderRadius;
+    margin-bottom: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .feather-arrow-down-circle {
+      color: $accentColor;
+      height: 28px;
+      width: 28px;
+      margin-right: 20px;
+    }
+
+    .amount {
+      text-align: right;
+      flex-grow: 1;
+      font-weight: 700;
+      margin-right: 20px;
+    }
+
+    &.income {
+      .feather-arrow-down-circle {
+        transform: rotateX(180deg);
+      }
+      .amount {
+
+        color: $hilightColor;
+
+        &:before {
+          content: '+';
+          padding-right: 4px;
+        }
+      }
+    }
+
+  }
+}
