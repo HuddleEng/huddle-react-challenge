@@ -14,7 +14,7 @@
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "node-uuid": "^1.4.8",
     "normalize.css": "^8.0.1",
     "react": "^16.12.0",
